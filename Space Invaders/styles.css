@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body.font-loaded {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+}
+
+#startScreen, #gameOverScreen {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#startScreen {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.font-loaded #startScreen {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+}
+
+#score {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 50;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.font-loaded #score {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+}
+
+#gameOverScreen div {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#gameOverScreen span {
+    display: inline-block;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

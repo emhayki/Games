@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Press Start 2P']
+            },
+            active: function() {
+                document.body.classList.add('font-loaded');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="startScreen">
+        Press Space to Play
+    </div>
+    <div id="gameOverScreen" style="display: none;">
+        <div>Game Over</div>
+        <div>Score: <span id="finalScore">0</span></div>
+    </div>
+    <p id="score">
+        Score: <span id="scoreEl">0</span>
+    </p>
+    <canvas></canvas>
+    <script src="./index.js"></script>
+</body>
+</html>
