@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+ 
+#board {
+    background-image: url(./soccer-background.png);
+}
