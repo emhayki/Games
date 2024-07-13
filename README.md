@@ -3,9 +3,13 @@ This repository hosts a collection of interactive games developed in JavaScript,
 ## Live Demos
 
 **Flappy Bird**
-Navigate through obstacles without touching them in this challenging game.
+Navigate through obstacles without touching them.
 - **Play Now:** [Flappy Bird](https://emhayki.github.io/Games/Flappy%20Bird/index.html)
 
 **Space Invaders**
-Shoot down waves of alien invaders in this classic arcade game.
+Shoot down waves of alien invaders.
 - **Play Now:** [Space Invaders](https://emhayki.github.io/Games/Space%20Invaders/index.html)
+
+**Doodle Jump**
+Jump as high as you can while avoiding obstacles.
+- **Play Now:** [Doodle Jump](https://emhayki.github.io/Games/Doodle%20Jump/index.html)
