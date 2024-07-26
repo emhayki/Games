@@ -1,0 +1,38 @@
+@keyframes slideright{
+    from {
+        background-position: 70000%;
+    } 
+    to {
+        background-position: 0%;
+    }
+}
+
+#desert {
+    position: absolute;
+    background-image: url("BG.png");
+    height: 200px;
+    width: 100%;
+    animation: slideright 600s infinite linear;
+} 
+
+.dino {
+    background-image: url("Dino.png");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.obstacle {
+    background-image: url("Cactus.png");
+    height: 71px;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+body {
+    font-family: 'Press Start 2P', cursive; /* You can include this font via Google Fonts */
+}
