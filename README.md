@@ -13,3 +13,7 @@ Shoot down waves of alien invaders.
 **Doodle Jump**
 Jump as high as you can while avoiding obstacles.
 - **Play Now:** [Doodle Jump](https://emhayki.github.io/Games/Doodle%20Jump/index.html)
+
+**T-Rex Game**
+Avoid obstacles in a relentless desert run.
+- **Play Now:** [T-Rex Game](https://emhayki.github.io/Games/Trex/index.html)
