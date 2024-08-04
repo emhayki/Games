@@ -1,4 +1,4 @@
-This repository hosts a collection of interactive games developed in JavaScript, available for direct play via GitHub Pages. Below are the live demos of the games currently available.
+This repository hosts a collection of interactive games developed in JavaScript, available for direct play via GitHub Pages. Below are the live demos of the games that are currently available.
 
 ## Live Demos
 
